@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bluemix-monitor-task
+  host: bluemix-monitor-task
+  disk_quota: 1024M
+  services:
+  - bluemix-monitor-task-cloudantNoSQLDB
